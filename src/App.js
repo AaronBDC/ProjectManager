@@ -4,8 +4,8 @@ import $ from 'jquery';
 import Projects from './Components/Projects';
 import AddProject from './Components/AddProject';
 import Todos from './Components/Todos';
-//added
-import PropTypes from 'prop-types';
+
+
 
 import './App.css';
 
