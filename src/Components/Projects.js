@@ -17,6 +17,8 @@ class Projects extends Component {
     console.log(this.props);
     return (
       <div className="Projects">
+        <h3>Latest Projects</h3>
+
         {projectItems}
         {this.props.test}
       </div>
