@@ -76,7 +76,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-         <AddProject addProject={this.handleAddProject.bind(this)}/>
+        <AddProject addProject={this.handleAddProject.bind(this)} />
         <Projects projects={this.state.projects} onDelete={this.handleDeleteProject.bind(this)} />
         <hr />
         <Todos todos={this.state.todos} />
